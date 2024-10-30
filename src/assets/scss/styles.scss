@@ -1,0 +1,209 @@
+// @use "grid";
+
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  font-family: "Anybody", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+  & > header,
+  & > footer {
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3rem 0;
+  }
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  padding: 50px;
+}
+
+.projets-holder {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 1rem;
+
+  & > div {
+    max-width: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 30px;
+
+    h2 {
+      padding: 1rem 0;
+    }
+
+    p {
+      padding: 1rem 0;
+    }
+
+    button {
+      background-color: black;
+      border: none;
+      color: white;
+      cursor: pointer;
+      padding: 10px;
+      display: inline-flex;
+      width: fit-content;
+      transition: all 0.3s ease-in-out;
+
+      &:hover,
+      &:focus {
+        background-color: hotpink;
+        color: black;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.modale-holder {
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3rem;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+
+    &:hover,
+    &:focus {
+      background-color: hotpink;
+      color: black;
+    }
+  }
+}
+
+.modale-contenu {
+  box-sizing: border-box;
+  padding: 3rem 0;
+  gap: 50px;
+
+  img {
+    width: 40%;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+
+      &:before {
+        content: "\00a0";
+        // espace insécable
+      }
+
+      &:after {
+        content: "\00a0"; // espace insécable
+      }
+
+      &:not(:last-child) {
+        &:after {
+          padding-left: 5px;
+          content: " / ";
+        }
+      }
+    }
+  }
+
+  a {
+    color: black;
+    transition: all 0.3s ease-in-out;
+
+    &:link,
+    &:visited {
+      color: black;
+    }
+
+    &:hover,
+    &:focus {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+
+  &.flex-column {
+    flex-direction: column;
+  }
+
+  &.flex-row {
+    flex-direction: row;
+  }
+
+  &.align-center {
+    align-items: center;
+  }
+
+  &.justify-between {
+    justify-content: space-between;
+  }
+
+  &.justify-end {
+    justify-content: flex-end;
+  }
+
+  &.gap-10 {
+    gap: 10px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.text-left {
+  text-align: left;
+}

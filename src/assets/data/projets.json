@@ -1,0 +1,81 @@
+[
+  {
+    "id": "01",
+    "name": "Projet 1",
+    "img": "./static/img/projet1.jpg",
+    "imgAlt": "Image du projet 1",
+    "description": "Deserunt harum, ipsum magnam excepturi inventore error ipsam praesentium. Velit, quia, repellendus sed ipsum nam debitis maxime vero dicta totam illo expedita, adipisci libero tempore et qui amet! Accusantium, eum!",
+    "date": "2024-10-24",
+    "type": "programmation",
+    "liens": {
+      "github": "https://github.com/",
+      "figma": "https://www.figma.com/",
+      "behance": "https://www.behance.net/"
+    },
+    "stack": ["html", "sass", "javascript", "npm", "git"]
+  },
+
+  {
+    "id": "02",
+    "name": "Projet 2",
+    "img": "./static/img/projet2.jpg",
+    "imgAlt": "Image du projet 2",
+    "description": "Assumenda molestiae soluta numquam. Molestias modi id ducimus nobis sint? Quae deleniti maiores molestiae! Delectus reprehenderit ratione consectetur magni inventore quam nemo dolorum odit numquam, exercitationem possimus voluptates animi non.",
+    "date": "2024-10-24",
+    "type": "programmation",
+    "liens": {
+      "github": "https://github.com/",
+      "figma": "https://www.figma.com/",
+      "behance": "https://www.behance.net/"
+    },
+    "stack": ["html", "sass", "javascript", "npm", "git"]
+  },
+
+  {
+    "id": "03",
+    "name": "Projet 3",
+    "img": "./static/img/projet3.png",
+    "imgAlt": "Image du projet 3",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores molestias voluptate harum dolores mollitia quasi assumenda excepturi ea odio tempore eveniet repudiandae quae doloremque, tempora doloribus deleniti fugiat expedita!",
+    "date": "2024-10-24",
+    "type": "programmation",
+    "liens": {
+      "github": "https://github.com/",
+      "figma": "https://www.figma.com/",
+      "behance": "https://www.behance.net/"
+    },
+    "stack": ["html", "sass", "javascript", "npm", "git"]
+  },
+
+  {
+    "id": "04",
+    "name": "Projet 4",
+    "img": "./static/img/projet4.jpg",
+    "imgAlt": "Image du projet 3",
+    "description": "Consectetur deserunt odit cupiditate nemo beatae voluptatem, quae fuga voluptas architecto eum, debitis accusantium autem impedit exercitationem nobis veniam aliquid. Vero quae enim sint, cupiditate at ullam soluta obcaecati asperiores?",
+    "date": "2024-10-24",
+    "type": "programmation",
+    "liens": {
+      "github": "https://github.com/",
+      "figma": "https://www.figma.com/",
+      "behance": "https://www.behance.net/"
+    },
+    "stack": ["html", "sass", "javascript", "npm", "git"]
+  },
+
+  {
+    "id": "05",
+    "name": "Projet 5",
+    "img": "./static/img/projet5.png",
+    "imgAlt": "Image du projet 5",
+    "description": "Alias atque accusamus accusantium odit fuga delectus eligendi consectetur, assumenda cupiditate itaque perspiciatis quidem impedit cum blanditiis ducimus nemo omnis sunt ab recusandae, libero eveniet obcaecati neque explicabo! Fugit, eveniet!",
+    "date": "2024-10-24",
+    "type": "programmation",
+    "liens": {
+      "github": "https://github.com/",
+      "figma": "https://www.figma.com/",
+      "behance": "https://www.behance.net/"
+    },
+    "stack": ["html", "sass", "javascript", "npm", "git"]
+  }
+]
